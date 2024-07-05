@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.6.4/dist/email.min.js"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+<div class="loader-wrapper" id ="loaderwrapper">
+    <div class="loader">
+        <div class="truckWrapper">
+          <div class="truckBody">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 198 93"
+              class="trucksvg"
+            >
+              <path
+                stroke-width="3"
+                stroke="#282828"
+                fill="#F83D3D"
+                d="M135 22.5H177.264C178.295 22.5 179.22 23.133 179.594 24.0939L192.33 56.8443C192.442 57.1332 192.5 57.4404 192.5 57.7504V89C192.5 90.3807 191.381 91.5 190 91.5H135C133.619 91.5 132.5 90.3807 132.5 89V25C132.5 23.6193 133.619 22.5 135 22.5Z"
+              ></path>
+              <path
+                stroke-width="3"
+                stroke="#282828"
+                fill="#7D7C7C"
+                d="M146 33.5H181.741C182.779 33.5 183.709 34.1415 184.078 35.112L190.538 52.112C191.16 53.748 189.951 55.5 188.201 55.5H146C144.619 55.5 143.5 54.3807 143.5 53V36C143.5 34.6193 144.619 33.5 146 33.5Z"
+              ></path>
+              <path
+                stroke-width="2"
+                stroke="#282828"
+                fill="#282828"
+                d="M150 65C150 65.39 149.763 65.8656 149.127 66.2893C148.499 66.7083 147.573 67 146.5 67C145.427 67 144.501 66.7083 143.873 66.2893C143.237 65.8656 143 65.39 143 65C143 64.61 143.237 64.1344 143.873 63.7107C144.501 63.2917 145.427 63 146.5 63C147.573 63 148.499 63.2917 149.127 63.7107C149.763 64.1344 150 64.61 150 65Z"
+              ></path>
+              <rect
+                stroke-width="2"
+                stroke="#282828"
+                fill="#FFFCAB"
+                rx="1"
+                height="7"
+                width="5"
+                y="63"
+                x="187"
+              ></rect>
+              <rect
+                stroke-width="2"
+                stroke="#282828"
+                fill="#282828"
+                rx="1"
+                height="11"
+                width="4"
+                y="81"
+                x="193"
+              ></rect>
+              <rect
+                stroke-width="3"
+                stroke="#282828"
+                fill="#DFDFDF"
+                rx="2.5"
+                height="90"
+                width="121"
+                y="1.5"
+                x="6.5"
+              ></rect>
+              <rect
+                stroke-width="2"
+                stroke="#282828"
+                fill="#DFDFDF"
+                rx="2"
+                height="4"
+                width="6"
+                y="84"
+                x="1"
+              ></rect>
+            </svg>
+          </div>
+          <div class="truckTires">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 30 30"
+              class="tiresvg"
+            >
+              <circle
+                stroke-width="3"
+                stroke="#282828"
+                fill="#282828"
+                r="13.5"
+                cy="15"
+                cx="15"
+              ></circle>
+              <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 30 30"
+              class="tiresvg"
+            >
+              <circle
+                stroke-width="3"
+                stroke="#282828"
+                fill="#282828"
+                r="13.5"
+                cy="15"
+                cx="15"
+              ></circle>
+              <circle fill="#DFDFDF" r="7" cy="15" cx="15"></circle>
+            </svg>
+          </div>
+          <div class="road"></div>
+      
+          <svg
+            xml:space="preserve"
+            viewBox="0 0 453.459 453.459"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            id="Capa_1"
+            version="1.1"
+            fill="#000000"
+            class="lampPost"
+          >
+            <path
+              d="M252.882,0c-37.781,0-68.686,29.953-70.245,67.358h-6.917v8.954c-26.109,2.163-45.463,10.011-45.463,19.366h9.993
+      c-1.65,5.146-2.507,10.54-2.507,16.017c0,28.956,23.558,52.514,52.514,52.514c28.956,0,52.514-23.558,52.514-52.514
+      c0-5.478-0.856-10.872-2.506-16.017h9.992c0-9.354-19.352-17.204-45.463-19.366v-8.954h-6.149C200.189,38.779,223.924,16,252.882,16
+      c29.952,0,54.32,24.368,54.32,54.32c0,28.774-11.078,37.009-25.105,47.437c-17.444,12.968-37.216,27.667-37.216,78.884v113.914
+      h-0.797c-5.068,0-9.174,4.108-9.174,9.177c0,2.844,1.293,5.383,3.321,7.066c-3.432,27.933-26.851,95.744-8.226,115.459v11.202h45.75
+      v-11.202c18.625-19.715-4.794-87.527-8.227-115.459c2.029-1.683,3.322-4.223,3.322-7.066c0-5.068-4.107-9.177-9.176-9.177h-0.795
+      V196.641c0-43.174,14.942-54.283,30.762-66.043c14.793-10.997,31.559-23.461,31.559-60.277C323.202,31.545,291.656,0,252.882,0z
+      M232.77,111.694c0,23.442-19.071,42.514-42.514,42.514c-23.442,0-42.514-19.072-42.514-42.514c0-5.531,1.078-10.957,3.141-16.017
+      h78.747C231.693,100.736,232.77,106.162,232.77,111.694z"
+            ></path>
+          </svg>
+        </div>
+      </div>
+
+</div>
+    
+    
+   <header class="header">
+    <a href ="#home" class ="logo">Kevin<span>JC</span>
+        </a>
+    <i class="bx bx-menu" id = "menu-icon"></i>
+    <nav class ="navbar">
+        <a href="#home" class = "active">Home</a>
+        <a href="#education">Education</a>
+        <a href="#skills">My Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact Me</a>
+        
+    </nav>
+
+   </header>
+   <section class="home" id="home">
+        <div class="home-content">
+            <h1><span>Kevin</span></h1>
+            <h3 class = "text-animation">I'm a <span></span></h3>
+            <p>
+                I am a tech enthusiast with a
+                passion for computers and
+                technology. I have always been
+                fascinated by the advancements
+                in the technical field and am
+                constantly looking forward to
+                learning more. My love for
+                technology led me to venture into
+                the world of Computer Science,
+                where I have developed skills in
+                coding and developing small
+                applications in my leisure time. 
+            </p>
+            <div class = "social-icons">
+                <a href="#"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#"><i class='bx bxl-github' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+                <a href="#"><i class='bx bxl-twitter' ></i></a>
+                
+            </div>
+            <div class="btn-group">
+                <a href="./assets/Resume.pdf" download class ="btn">Download CV</a>
+                <a href="#contact" class ="btn">Contact</a>
+            </div>
+        </div>
+            <div class="home-img">
+                <img src="assets/Yeah.jpg" alt="Text">
+            </div>
+        
+   </section>
+   <section class = "education" id = "education">
+        <h2 class="heading">Education</h2>
+    <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot    "></div>
+                    <div class="timeline-date">
+                            2022-2026     </div>
+                    <div class="timeline-content">
+                        <h3>University</h3>
+                        <p><a href="https://stjosephs.ac.in/" style="color:white">St Joseph's College of Engineering</a></p>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                            2020-2022     </div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary</h3>
+                        <p><a href= "https://mccmatric.school/" style="color:white">Madras Christian College Matriculation Higher Secondary School</a></p>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">
+                            2009-2020       </div>
+                    <div class="timeline-content">
+                        <h3>Kintergarden- Middle School</h3>
+                        <p>Madras Christian College Matriculation Higher Secondary School</p>
+                    </div>
+            </div>  
+        </div>
+    </div>
+   </section>
+
+
+
+   <section class="skills" id="skills">
+
+
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-row">
+            <div class="skills-column">
+                <h3 class="title">Web Development Skills</h3>
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    
+                    
+                        <div class="progress">
+                            <h3>CSS<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    
+                    
+                        <div class="progress">
+                            <h3>JavaScript<span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                   
+                    
+                        <div class="progress">
+                            <h3>React<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="skills-column">
+                <h3 class="title">Programming Skills</h3>
+
+
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>Python<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    
+                    
+                        <div class="progress">
+                            <h3>Java<span>90%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                    
+                        <div class="progress">
+                            <h3>C<span>65%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>C++<span>70%</span></h3>
+                            <div class="bar"><span></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+
+   </section>
+<section class="projects" id = "projects">
+    <h2 class="heading">My <span>Projects</span></h2>
+    <div class = "card-area" id="card-area">
+		<div class="card-wrapper">
+			<div class="box-area">
+                <div class="box">
+					<img alt="" src="assets/EDA.png">
+					<div class="overlay">
+						<h3>Delhi Daily Climate 2017</h3>
+						<p>In my initial project, I explored the Daily Delhi Climate dataset, uncovering seasonal temperature and humidity trends, correlations with wind speed, and the impact of rainfall. This analysis provided key insights into Delhi's climate dynamics, informing future research and modeling efforts.
+                            </p><a href="https://github.com/Kevin06055/Exploratory-Data-Analysis">See Project</a>
+					</div>
+				</div>
+				<div class="box">
+					<img alt="" src="assets/CountDownTimer.png">
+					<div class="overlay">
+						<h3>Countdown Timer</h3>
+						<p>This PyQt5-based countdown timer in Python allows setting and visualizing time durations in minutes and seconds. It includes a user-friendly interface for inputting time and provides alerts upon completion. Ideal for time-sensitive applications, it offers flexibility and cross-platform compatibility through PyQt5's GUI capabilities.</p><a href="https://github.com/Kevin06055/minor_project">See Project</a>
+					</div>
+				</div>
+				<div class="box">
+					<img alt="" src="assets/Codsoft.png">
+					<div class="overlay">
+						<h3>To-Do-List</h3>
+						<p>This PyQt5-based to-do list in Python simplifies task management with an intuitive interface for adding, editing, and deleting tasks. It provides visual feedback for task completion and priority settings, making it ideal for personal productivity.</p><a href="https://github.com/Kevin06055/CodSoft">See Project</a>
+					</div>
+				</div>
+				<div class="box">
+					<img alt="" src="./assets/CodSoft2.png">
+					<div class="overlay">
+						<h3>Simple Calculator</h3>
+						<p>A PyQt5-based password generator in Python offers a simple, secure way to create and copy passwords using PyQt5's interface and Python's random module for randomness and security.</p><a href="https://github.com/Kevin06055/CodSoft-Task2">See Project</a>
+					</div>
+				</div>
+                
+                <div class="box">
+					<img alt="" src="./assets/CodSoft3.png">
+					<div class="overlay">
+						<h3>Random Password Generator</h3>
+						<p>A PyQt5-based password generator in Python offers a simple, secure way to create and copy passwords using PyQt5's interface and Python's random module for randomness and security.</p><a href="https://github.com/Kevin06055/CodSoft-Task3">See Project</a>
+					</div>
+				</div>
+				</div> 
+			</div>
+		</div>
+	</div>
+
+</section>
+   <section class="experience" id = "experience">
+   <h2 class="heading">Experience</h2>
+   
+
+   <div class="timeline-items">
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+            <div class="timeline-date">
+                    April 2024   </div>
+            <div class="timeline-content">
+                <h3>Enthirathon-24</h3>
+                <p>At Enthirathon-2024, I developed "Gesture Speaks," an application that converts hand signs to voice using image recognition. The project involved training an image model with a RandomForestClassifier and integrating it into the TensorFlow Image Classification Model using Keras. Data handling was accomplished through Python interfacing with numpy arrays. This experience provided practical knowledge of TensorFlow image classification models, and the project won the Best Sociality Award with a cash prize of Rs.10,000.</p>
+            </div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+            <div class="timeline-date">
+                    Feb 2024       </div>
+            <div class="timeline-content">
+                <h3>Ai No-Code</h3>
+                <p>During my Python Programming internship from December 10, 2023, to January 10, 2024, I designed a To-Do-List GUI application from scratch using Python, PyQt5, and QtDesigner, created a simple calculator application for basic arithmetic operations, and developed a user-friendly Password Generator that produces keys using diverse combinations of characters. Through these projects, I gained practical experience with Python and Python GUI development.
+                </p>
+            </div>
+    </div>
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+            <div class="timeline-date">
+                    Dec 2023       </div>
+            <div class="timeline-content">
+                <h3>Internship at CodSoft</h3>
+                <p>During my Python Programming internship from December 10, 2023, to January 10, 2024, I designed a To-Do-List GUI application from scratch using Python, PyQt5, and QtDesigner, created a simple calculator application for basic arithmetic operations, and developed a user-friendly Password Generator that produces keys using diverse combinations of characters. Through these projects, I gained practical experience with Python and Python GUI development.
+                </p>
+            </div>
+    </div>
+
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+            <div class="timeline-date">
+                    Aug 2023</div>
+            <div class="timeline-content">
+                <h3>PSG I-Tech Hackfest</h3>
+                <p>At PSG iTech-HackFest 2023, I collaborated on a team project to develop a Smart AI System for HVAC addressing climate change. The project utilized Raspberry Pi and AdaFruit Dashboard for data handling, incorporating a temperature and humidity sensor interfaced with Python. Through this experience, I gained practical knowledge of microcontrollers and IoT devices, as well as valuable teamwork and collaboration skills.</p>
+            </div>
+    </div> 
+    <div class="timeline-item">
+        <div class="timeline-dot"></div>
+            <div class="timeline-date">
+                        April 2023</div>
+            <div class="timeline-content">
+                <h3>Internship at Technook</h3>
+                <p>During my Data Science internship from April 1, 2023, to May 31, 2023, I developed a GUI Countdown Timer using Python and PyQt5, and created a Linear Regression model to predict the Air Quality Index of Delhi, gaining practical experience and knowledge in Data Science and Python.</p>
+            </div>
+    </div>  
+</div>
+</div>
+
+   </section>
+
+
+
+
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me</span>
+    </h2>
+    <form id = "contact-form">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" id = "name" name = 'from_name' placeholder="Full Name" required>
+                <input type="email" id = email name = "email" placeholder="Email">
+
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number" required>
+                <input type="text" placeholder="Subject"required>
+
+            </div>
+        <div class="input-group2">
+            <textarea name="message" id="message" cols = '30' rows = '10' placeholder="Your Message" required></textarea>
+            <input type="submit" value = "Send Message" class = 'btn'>
+        </div>
+            
+        </div>
+    </form>
+   </section>
+
+   <script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+
+        emailjs.sendForm('service_sfh3p9e', 'template_ppajllc', this)
+            .then(function() {
+                alert('Message sent successfully!');
+            }, function(error) {
+                alert('Failed to send message: ' + JSON.stringify(error));
+            });
+    });
+</script>
+
+   <footer class = "footer">
+    <div class="social">
+        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+        <a href="#"><i class='bx bxl-github' ></i></a>
+        <a href="#"><i class='bx bxl-instagram' ></i></a>
+        <a href="#"><i class='bx bxl-twitter' ></i></a>
+    </div>
+
+    <ul class="list">
+       <li><a href="#">FAQ</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">About Me</a></li>
+       <li><a href="#">Contact</a></li>
+       <li><a href="#">Experience</a></li>
+
+        </ul>
+    <p class="copyright">
+        @ Kevin JC | All Rights Reserved
+    </p>
+    </div>
+   </footer>
+    <script src ="script.js"></script>
+</body>
+</html>

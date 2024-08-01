@@ -12,7 +12,7 @@
     --bg-color: #080808;
     --second-bg-color: #131313;
     --text-color: white;
-    --main-color: #fff700;
+    --main-color: #fff700e5;
 }
 
 .loader-wrapper {
@@ -174,7 +174,7 @@ span{
 .social-icons a:hover{
     color:var(--text-color);
     transform: scale(1.3) translateY(-5px);
-    box-shadow: 0 0 25px var(--main-color);
+    box-shadow: 0 0 10px var(--main-color);
     background-color: var(--main-color);
     transition: 0.5s;
 }
@@ -467,6 +467,13 @@ span{
 
 .skills-content .progress h3 span{
     color:var(--text-color);
+
+}
+.link{
+    color:white;
+}
+.skills-content .progress .link:hover{
+    color:var(--main-color);
 
 }
 
